@@ -7,7 +7,7 @@ function App() {
       <h1 className="text-3xl font-bold underline flex justify-center mb-10"> This is an app</h1>
      
      <Profilecardapp/>
-     <Button children="This is a button" outline/>
+     <Button children="This is a button" primary outline/>
  
     </div>
   );
