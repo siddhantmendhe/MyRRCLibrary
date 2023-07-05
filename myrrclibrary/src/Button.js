@@ -7,7 +7,8 @@ function Button({
     warning,
     danger,
     outline,
-    rounded
+    rounded,
+    ...rest
 
 
 }){
@@ -31,7 +32,7 @@ function Button({
 
     return(
     
-    <button className={classes}>{children}</button>
+    <button {...rest} className={classes}>{children}</button>
     
     );
 
