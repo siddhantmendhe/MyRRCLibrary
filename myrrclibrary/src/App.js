@@ -8,7 +8,7 @@ function App() {
       <h1 className="text-3xl font-bold underline flex justify-center mb-10"> This is an app</h1>
      
      <Profilecardapp/>
-     <Button  success rounded outline ><GoBellFill />click me</Button>
+     <Button   rounded outline className="text-blue-500" ><GoBellFill />click me</Button>
  
     </div>
   );
