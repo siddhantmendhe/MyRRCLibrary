@@ -2,6 +2,7 @@ import Button from './Button';
 import { GoBellFill } from "react-icons/go";
 import './index.css'
 import Profilecardapp from './Profilecardapp';
+import AccordionPage from './AccordionPage';
 function App() {
   return (
     <div >
@@ -9,6 +10,7 @@ function App() {
      
      <Profilecardapp/>
      <Button   rounded outline className="text-blue-500" ><GoBellFill />click me</Button>
+     <AccordionPage/>
  
     </div>
   );
