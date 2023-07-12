@@ -9,7 +9,7 @@ function Accordion({items}){
       
         return(
             <div key={item.id}>
-                <div className="flex justify-between p-3 bg-gray-50 border-b items-center cursor-pointer" > {item.label} </div>
+                <div className="flex justify-between p-3 bg-gray-50 border-b items-center cursor-pointer" onClick={()=>setExpandedIndex(index)}> {item.label} </div>
                 {isExpanded && <div className="border-b p-5">{item.content}</div>}
             </div>
         )
